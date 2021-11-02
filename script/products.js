@@ -103,7 +103,7 @@ function displayProductsDOM(products){
     productsEl.innerHTML = products.map(product=>`
         <div class="product">
             <div class="product-info">
-                <img src="${product.product_image_md}" alt="product-image" width = "400" height = "400">
+                <img src="${product.product_image_md}" alt="product-image" width = "300" height = "300">
                 <h4>${product.product_name}</h4>
                 <h5>Price: $${product.product_price}</h5>
                 <h5>Rating: ${product.product_ratings}</h5>
